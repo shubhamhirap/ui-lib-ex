@@ -1,5 +1,5 @@
 import { createMuiTheme } from "@material-ui/core";
-import GridListComp from "./components/GridListComp";
+import HiddenComp from "./components/HiddenComp";
 
 const theme = createMuiTheme({
   palette: {
@@ -19,7 +19,7 @@ const theme = createMuiTheme({
 });
 
 const App = () => {
-  return <GridListComp />;
+  return <HiddenComp />;
 };
 
 export default App;
