@@ -1,5 +1,8 @@
 import { createMuiTheme } from "@material-ui/core";
-import HiddenComp from "./components/HiddenComp";
+import ButtonInput from "./components/InputComp/Button/ButtonInput";
+import CustomizedButton from "./components/InputComp/Button/CustomizedButton";
+import OutlinedButton from "./components/InputComp/Button/OutlinedButton";
+import UploadButton from "./components/InputComp/Button/UploadButton";
 
 const theme = createMuiTheme({
   palette: {
@@ -19,7 +22,14 @@ const theme = createMuiTheme({
 });
 
 const App = () => {
-  return <HiddenComp />;
+  return (
+    <>
+      <ButtonInput />
+      <OutlinedButton />
+      <UploadButton />
+      <CustomizedButton />
+    </>
+  );
 };
 
 export default App;
