@@ -1,8 +1,8 @@
-import GridComp from "./components/GridComp";
-import ColorTestComp from "./components/ColorTestComp";
-import TestPaper from "./components/TestPaper";
-import { createMuiTheme, CssBaseline, ThemeProvider } from "@material-ui/core";
-import BoxComp from "./components/BoxComp";
+import { createMuiTheme } from "@material-ui/core";
+import ButtonInput from "./components/InputComp/Button/ButtonInput";
+import CustomizedButton from "./components/InputComp/Button/CustomizedButton";
+import OutlinedButton from "./components/InputComp/Button/OutlinedButton";
+import UploadButton from "./components/InputComp/Button/UploadButton";
 
 const theme = createMuiTheme({
   palette: {
@@ -23,14 +23,12 @@ const theme = createMuiTheme({
 
 const App = () => {
   return (
-    // <ThemeProvider theme={theme}>
-    //   {/* <GridComp /> */}
-    //   <CssBaseline>
-    //     <ColorTestComp />
-    //     <TestPaper />
-    //   </CssBaseline>
-    // </ThemeProvider>
-    <BoxComp />
+    <>
+      <ButtonInput />
+      <OutlinedButton />
+      <UploadButton />
+      <CustomizedButton />
+    </>
   );
 };
 
