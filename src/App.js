@@ -1,9 +1,5 @@
-import GridComp from "./components/GridComp";
-import ColorTestComp from "./components/ColorTestComp";
-import TestPaper from "./components/TestPaper";
-import { createMuiTheme, CssBaseline, ThemeProvider } from "@material-ui/core";
-import BoxComp from "./components/BoxComp";
-import ContainerComp from "./components/ContainerComp";
+import { createMuiTheme } from "@material-ui/core";
+import GridListComp from "./components/GridListComp";
 
 const theme = createMuiTheme({
   palette: {
@@ -23,7 +19,7 @@ const theme = createMuiTheme({
 });
 
 const App = () => {
-  return <ContainerComp />;
+  return <GridListComp />;
 };
 
 export default App;
