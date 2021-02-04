@@ -1,8 +1,5 @@
 import { createMuiTheme } from "@material-ui/core";
-import ButtonInput from "./components/InputComp/Button/ButtonInput";
-import CustomizedButton from "./components/InputComp/Button/CustomizedButton";
-import OutlinedButton from "./components/InputComp/Button/OutlinedButton";
-import UploadButton from "./components/InputComp/Button/UploadButton";
+import DashBoard from "./dashboardTemp/DashBoard";
 
 const theme = createMuiTheme({
   palette: {
@@ -24,10 +21,7 @@ const theme = createMuiTheme({
 const App = () => {
   return (
     <>
-      <ButtonInput />
-      <OutlinedButton />
-      <UploadButton />
-      <CustomizedButton />
+      <DashBoard />
     </>
   );
 };
