@@ -1,4 +1,5 @@
 import { createMuiTheme } from "@material-ui/core";
+import CheckboxesGroup from "./components/InputComp/CheckBox/CheckboxesGroup";
 import CheckboxLabel from "./components/InputComp/CheckBox/CheckBoxLabel";
 
 const theme = createMuiTheme({
@@ -21,7 +22,7 @@ const theme = createMuiTheme({
 const App = () => {
   return (
     <>
-      <CheckboxLabel />
+      <CheckboxesGroup />
     </>
   );
 };
