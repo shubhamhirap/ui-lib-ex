@@ -1,5 +1,5 @@
 import { createMuiTheme } from "@material-ui/core";
-import SplitButton from "./components/InputComp/ButtonGroup/SplitButton";
+import CheckboxLabel from "./components/InputComp/CheckBox/CheckBoxLabel";
 
 const theme = createMuiTheme({
   palette: {
@@ -21,7 +21,7 @@ const theme = createMuiTheme({
 const App = () => {
   return (
     <>
-      <SplitButton />
+      <CheckboxLabel />
     </>
   );
 };
