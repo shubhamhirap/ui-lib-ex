@@ -1,5 +1,5 @@
 import { createMuiTheme } from "@material-ui/core";
-import DashBoard from "./dashboardTemp/DashBoard";
+import BasicButtonGroup from "./components/InputComp/ButtonGroup/BasicButtonGroup";
 
 const theme = createMuiTheme({
   palette: {
@@ -21,7 +21,7 @@ const theme = createMuiTheme({
 const App = () => {
   return (
     <>
-      <DashBoard />
+      <BasicButtonGroup />
     </>
   );
 };
