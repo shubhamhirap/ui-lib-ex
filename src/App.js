@@ -1,5 +1,5 @@
 import { createMuiTheme } from "@material-ui/core";
-import BasicButtonGroup from "./components/InputComp/ButtonGroup/BasicButtonGroup";
+import SplitButton from "./components/InputComp/ButtonGroup/SplitButton";
 
 const theme = createMuiTheme({
   palette: {
@@ -21,7 +21,7 @@ const theme = createMuiTheme({
 const App = () => {
   return (
     <>
-      <BasicButtonGroup />
+      <SplitButton />
     </>
   );
 };

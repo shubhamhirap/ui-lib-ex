@@ -32,6 +32,7 @@ export default function BasicButtonGroup() {
         variant="contained"
         color="secondary"
         aria-label="contained primary button group"
+        disableElevation
       >
         <Button>One</Button>
         <Button>Two</Button>
