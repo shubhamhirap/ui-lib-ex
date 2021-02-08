@@ -42,6 +42,7 @@ export default function CheckboxLabel() {
           />
         }
         label="Secondary"
+        labelPlacement="top"
       />
       <FormControlLabel
         control={
@@ -53,15 +54,18 @@ export default function CheckboxLabel() {
           />
         }
         label="Primary"
+        labelPlacement="start"
       />
       <FormControlLabel
         control={<Checkbox name="checkedC" />}
         label="Uncontrolled"
+        labelPlacement="bottom"
       />
       <FormControlLabel
         disabled
         control={<Checkbox name="checkedD" />}
         label="Disabled"
+        labelPlacement="end"
       />
       <FormControlLabel
         disabled

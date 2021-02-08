@@ -1,6 +1,6 @@
 import { createMuiTheme } from "@material-ui/core";
-import CheckboxesGroup from "./components/InputComp/CheckBox/CheckboxesGroup";
-import CheckboxLabel from "./components/InputComp/CheckBox/CheckBoxLabel";
+
+import FloatingActionButtons from "./components/InputComp/FAB/FloatingActionButtons";
 
 const theme = createMuiTheme({
   palette: {
@@ -22,7 +22,7 @@ const theme = createMuiTheme({
 const App = () => {
   return (
     <>
-      <CheckboxesGroup />
+      <FloatingActionButtons />
     </>
   );
 };
